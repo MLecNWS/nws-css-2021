@@ -1,22 +1,41 @@
 @import './mixins.scss';
 @import './focus_modal.scss';
 
+
+
+.header{
+  background-color:  #F3F0E2;
+  padding: 10px;
+  text-align: center;
+}
+
+.item{
+  background-color: #2E364F;
+  padding: 10px;
+  text-align: center;
+}
+
 body {
   margin: 0;
 }
 
-
 h1{
   text-align: center;
   color: #D53A34;
+  font-family: 'Barlow Bold', sans-serif;
+  font-weight: bolder ;
+
 }
 h2{
-  text-align: right;
+  text-align: left;
   color: #D53A34;
+  font-family: 'Barlow', sans-serif;
 }
 
 p{
   font-size: 25px;
+  font-family: 'Barlow Light', sans-serif;
+color: #F3F0E2;
 }
 button{
   background-color: #D53A34;
@@ -24,7 +43,9 @@ button{
   border-radius: 15px;
   margin: 5px;
   font-size: 30px;
+  font-family: 'Barlow Light', sans-serif;
 }
+
 .item-link {
   cursor: pointer;
 }
