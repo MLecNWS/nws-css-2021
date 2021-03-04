@@ -5,6 +5,22 @@ body {
   margin: 0;
 }
 
+
+h1{
+  text-align: center;
+  color: #D53A34;
+}
+h2{
+  text-align: right;
+  color: #D53A34;
+}
+
+p .item__date-created{
+  color:   #2E364F;
+}
+p .item__description{
+  color:  #2D5D7C;
+}
 .item-link {
   cursor: pointer;
 }
