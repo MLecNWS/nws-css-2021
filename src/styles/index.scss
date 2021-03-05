@@ -37,7 +37,12 @@ h2{
 p{
   font-size: 25px;
   font-family: 'Barlow Light', sans-serif;
-color: #F3F0E2;
+  color: #F3F0E2;
+}
+
+p.item__date-created{
+  font-family: 'Barlow', sans-serif;
+  font-style: italic;
 }
 button{
   background-color: #D53A34;
@@ -45,7 +50,7 @@ button{
   border-radius: 15px;
   margin: 5px;
   font-size: 30px;
-  font-family: 'Barlow Light', sans-serif;
+  font-family: 'Barlow Black', sans-serif;
 }
 
 .item-link {
