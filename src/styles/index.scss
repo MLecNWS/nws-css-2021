@@ -9,6 +9,8 @@
   text-align: center;
 }
 
+
+
 .item{
   background-color: #2E364F;
   padding: 10px;
@@ -53,6 +55,9 @@ button{
   font-family: 'Barlow Black', sans-serif;
 }
 
+button.searchbar__btn{
+  background-color: #2E364F;
+}
 img{ 
   border-radius: 15px;
 }
